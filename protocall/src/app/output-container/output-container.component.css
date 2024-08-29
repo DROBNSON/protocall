@@ -1,9 +1,7 @@
 :host {
-    width: 40%;
+   width: 40%;
     height: 100%;
     display: flex;
-    justify-content: center;
-
 }
 
 form {
@@ -17,17 +15,8 @@ form {
 
 }
 
-.input-button-container {
-    display: flex;
-    flex-direction: row;
-}
 
-.input-button {
-    height: 3vh;
-    width: 5vw;
-}
-
-#input-text {
+#output-text {
     width: 80%;
     height: 50%;
     resize: none;
