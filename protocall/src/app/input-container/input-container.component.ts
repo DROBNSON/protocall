@@ -5,8 +5,9 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './input-container.component.html',
-  styleUrl: './input-container.component.css'
+  styleUrl: './input-container.component.css',
 })
 export class InputContainerComponent {
-
+  inputTextValue?: number;
+  
 }
