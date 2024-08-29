@@ -9,5 +9,5 @@ import { Component } from '@angular/core';
 })
 export class InputContainerComponent {
   inputTextValue?: number;
-  
+  characterCount = 100;
 }
