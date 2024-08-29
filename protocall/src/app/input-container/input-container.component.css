@@ -1,0 +1,34 @@
+:host {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.input-button-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-button {
+    height: 3vh;
+    width: 5vw;
+}
+
+#input-text {
+    width: 80%;
+    height: 50%;
+    resize: none;
+}
