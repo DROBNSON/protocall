@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'ubuntu';
+  src: url('/assets/fonts/Ubuntu/Ubuntu-Regular.ttf');
+}
+
 :host {
   height: 10%;
   margin: 0;
@@ -8,12 +13,15 @@
 body {
   margin: 0;
   padding: 0;
+
 }
 
 header {
   display: flex;
   width: 100%;
   height: 100%;
+  justify-content: center;
+  font-family: "Ubuntu";  
 }
 
 ul {
@@ -25,19 +33,18 @@ ul {
   list-style-type: none;
 }
 
-img {
-  /* margin-right: auto; */
-}
 
 li {
   display: flex;
   align-items: center;
+  margin: 2%;
 }
 
 nav {
-  width: 100%;
+  width: 95%;
   height: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between; 
 }
