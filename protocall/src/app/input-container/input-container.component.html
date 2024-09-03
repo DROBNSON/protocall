@@ -1,9 +1,9 @@
 <form>
   <textarea
+    #inputText
     name="input-text"
     id="input-text"
     maxlength="1000"
-    [value]="inputTextValue"
   ></textarea>
   <div class="input-button-container">
     <button
@@ -28,8 +28,8 @@
       class="input-button"
       type="button"
     >
-      clear
+      Clear
     </button>
-    <p class="chracter-count"> {{characterCount}}/1000</p>
+    <div class="chracter-counter">{{ characterCount }}/1000</div>
   </div>
 </form>
