@@ -1,6 +1,6 @@
 <form>
   <textarea
-    #inputText
+    [(ngModel)]="inputText"
     name="input-text"
     id="input-text"
     maxlength="1000"
@@ -30,6 +30,7 @@
     >
       Clear
     </button>
-    <div class="chracter-counter">{{ characterCount }}/1000</div>
+    <div class="chracter-counter">{{ inputText.length }}/1000</div>
   </div>
 </form>
+
