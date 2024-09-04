@@ -8,12 +8,10 @@ import { FormsModule } from '@angular/forms';
   templateUrl: './input-container.component.html',
   styleUrl: './input-container.component.css',
 })
-export class InputContainerComponent{
-
-  characterCount?: number;
-
+export class InputContainerComponent {
+  inputText: string = '';
+  inputTextValue: any;
+  characterCount: number = 0;
 
   @Output() translate: EventEmitter<String> = new EventEmitter();
-
-  translateText() {}
 }
