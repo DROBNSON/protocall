@@ -18,11 +18,21 @@ form {
 .input-button-container {
   display: flex;
   flex-direction: row;
+  width: 80%;
 }
 
 .input-button {
-  height: 3vh;
   width: 5vw;
+}
+
+.input-button img{
+  width: 2rem;
+
+}
+
+#audio-recording-button {
+  display: flex;
+  justify-content: center;
 }
 
 #input-text {
