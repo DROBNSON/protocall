@@ -7,3 +7,10 @@
     color: #FAF9F6;
     background-color: #232b2b;
 }
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

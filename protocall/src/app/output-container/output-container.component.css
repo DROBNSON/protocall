@@ -15,10 +15,19 @@ form {
 
 }
 .output-button {
-      height: 3vh;
-  width: 5vw;
+    width: 30%;
+
 }
 
+.output-button img {
+    width: 2rem;
+}
+
+.output-button-container{
+    display: flex;
+    flex-direction: row;
+
+}
 
 #output-text {
     width: 80%;
